@@ -71,6 +71,13 @@ table {
 	color: #ffffff;
 }
 
+.fittedCaps img {
+	width: 25em;
+	height: 15em;
+	border: .5em solid white;
+
+}
+
 h2.contactHeader {
 	color: #ffffff;
 }
@@ -245,7 +252,7 @@ input, select, textarea {
 				-ms-transition: background-color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out;
 				border-radius: 100%;
-				border: solid 2px rgba(255, 255, 255, 0.125);
+				border: solid 2px rgba(0, 0, 0, 0.486);
 				content: '\f105';
 				display: inline-block;
 				font-size: 1.25em;
