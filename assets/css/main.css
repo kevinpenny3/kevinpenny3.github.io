@@ -161,13 +161,8 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease, border-bottom 0.2s ease;
 		transition: color 0.2s ease, border-bottom 0.2s ease;
 		text-decoration: none;
-		border-bottom: dotted 1px;
 		color: inherit;
 	}
-
-		a:hover {
-			border-bottom-color: transparent;
-		}
 
 	strong, b {
 		font-weight: 400;
@@ -2829,6 +2824,7 @@ input, select, textarea {
 			}
 
 			.features li > :last-child {
+				margin-top: 2rem;
 				margin-bottom: 0;
 			}
 
@@ -3801,4 +3797,17 @@ input, select, textarea {
 		.techStackLogo {
 			margin: 2em;
 		}
-		
+
+.featuresbutton {
+	border: 2px solid lightgrey;
+	border-radius: .3rem;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+.featuresbutton:hover {
+	background-color: rgb(236, 236, 236);
+}	
+.logoborder img {
+	border: 5px solid white;
+	border-radius: 50%;
+}
